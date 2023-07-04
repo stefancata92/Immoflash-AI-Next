@@ -48,120 +48,14 @@ const Home = (props) => {
                 intelligence. You&apos;re harnessing the power of AI to boost
                 your sales, optimise your processes, and outpace competition.
               </span>
-              <button type="button" className="home-button button">
+              <a
+                href="https://share-eu1.hsforms.com/1YYhEHd2LRvSrPetrL-g6UQ2b8p0m"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link button"
+              >
                 Join the waiting list today
-              </button>
-              <div className="home-div">
-                <Script
-                  html={`<div id="mc_embed_shell">
-  <div id="mc_embed_signup">
-    <form
-      action="https://gmail.us2.list-manage.com/subscribe/post?u=3fcb77dbb79d04ea1e6f2cc9a&amp;id=f602fc0ad7&amp;v_id=4454&amp;f_id=00f94de0f0"
-      method="post"
-      id="mc-embedded-subscribe-form"
-      name="mc-embedded-subscribe-form"
-      class="validate"
-      target="_self"
-      novalidate=""
-    >
-      <div id="mc_embed_signup_scroll" style="font-family:Inter, sans-serif;color:#fff;">
-          <label for="mce-EMAIL" style="margin-bottom: 5px; display:block;">
-            Email Address
-            <span class="asterisk">*</span>
-          </label>
-          <div style="display:flex;gap: 10px;">
-          <input
-            type="email"
-            name="EMAIL"
-            class="required email"
-            placeholder="Email"
-            id="mce-EMAIL"
-            required=""
-            value=""
-            style="padding: 10px 20px; border-radius: 20px; width: 100%;"
-          />
-          <input 
-            style="background-color:#FFA784; border-radius: 20px; padding:10px 25px;font-weight: 600;" 
-            type="submit" 
-            name="subscribe" 
-            id="mc-embedded-subscribe" 
-            class="button" 
-            value="Join today the waitlist"
-          />
-          </div>
-        </div>
-        <div
-          id="mergeRow-gdpr"
-          class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group"
-          style="color: #fff; font-family: 'Inter';"
-        >
-          <div class="content__gdpr">
-            <label style="margin-bottom: 5px; font-weigth: 600; margin-top: 10px; display: block">Marketing Permissions</label>
-            <p>
-              Please select all the ways you would like to hear from Immoflash
-            </p>
-            <fieldset
-              style="padding: 10px 0;"
-              class="mc_fieldset gdprRequired mc-field-group"
-              name="interestgroup_field"
-            >
-              <label class="checkbox subfield" for="gdpr25398" style="display:flex; gap: 4px;">
-                <input
-                  type="checkbox"
-                  id="gdpr_25398"
-                  name="gdpr[25398]"
-                  class="gdpr"
-                  value="Y"
-                  style="padding: 5px;"
-                />
-                <span style="color:#adadf0;">Email</span>
-              </label>
-            </fieldset>
-           <p style="font-size: 12px; color:#9898dd; margin-bottom: 5px;">
-              You can unsubscribe at any time by clicking the link in the footer
-              of our emails. For information about our privacy practices, please
-              visit our website.
-            </p>
-          </div>
-          <div class="content__gdprLegal">
-            <p style="font-size: 12px; color:#9898dd;">
-              We use Mailchimp as our marketing platform. By clicking below to
-              subscribe, you acknowledge that your information will be
-              transferred to Mailchimp for processing. </br>
-              <a href="https://mailchimp.com/legal/terms" target="_blank">Learn
-              more about Mailchimp's privacy practices here.</a>
-            </p>
-          </div>
-        </div>
-        <div id="mce-responses" class="clear foot">
-         <div
-            class="response"
-            id="mce-error-response"
-            style="display: none;"
-          ></div>
-          <div
-            class="response"
-            id="mce-success-response"
-            style="display: none;"
-          ></div>
-        </div>
-        <div aria-hidden="true" style="position: absolute; left: -5000px;">
-          <!-- real people should not fill this in and expect good things - do not
-          remove this or risk form bot signups -->
-          <input
-            type="text"
-            name="b_3fcb77dbb79d04ea1e6f2cc9a_f602fc0ad7"
-            tabindex="-1"
-            value=""
-          />
-        </div>
-      </div>
-    </form>
-  </div>
-</div>
-`}
-                ></Script>
-              </div>
+              </a>
               <span className="home-description1">
                 *Only 12 spots left in pre-alpha, be the first to implement it
                 inside your business 
@@ -456,17 +350,13 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-button {
+          .home-link {
             width: 100%;
             font-style: normal;
             font-weight: 700;
+            margin-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
             background-color: var(--dl-color-scheme-orange100);
-          }
-          .home-div {
-            color: #fff;
-            width: 100%;
-            height: 250px;
-            margin-bottom: var(--dl-space-space-unit);
           }
           .home-description1 {
             color: var(--dl-color-scheme-white);

@@ -43,7 +43,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<!-- <script type="text/javascript"> ... </script> -->\n<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3fcb77dbb79d04ea1e6f2cc9a/da6d8c8f1a9f6446d592ee917.js");</script><noscript>',
+                '</noscript><!--This is the head section-->\n<!-- <script type="text/javascript"> ... </script> -->\n<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>\n<script>\n  hbspt.forms.create({\n    region: "eu1",\n    portalId: "139813798",\n    formId: "6188441d-dd8b-46f4-ab3d-eb6b2fe83a51"\n  });\n</script><noscript>',
             }}
           ></noscript>
         </Head>
