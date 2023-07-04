@@ -1,8 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 
-import Script from 'dangerous-html/react'
-
 const Home = (props) => {
   return (
     <>
@@ -65,19 +63,19 @@ const Home = (props) => {
             <div className="home-image1">
               <img
                 alt="image"
-                src="/immoflash-32tgwrvgregh53.svg"
-                loading="lazy"
-                className="home-hero-image"
-              />
-              <img
-                alt="image"
-                src="/union-400w.png"
+                src="/union-400h.png"
                 className="home-graphic-top"
               />
               <img
                 alt="image"
                 src="/group%2018-1200w.png"
                 className="home-image2"
+              />
+              <img
+                alt="image"
+                src="/immoflash-32tgwrvgregh53.svg"
+                loading="lazy"
+                className="home-hero-image"
               />
             </div>
           </div>
@@ -237,7 +235,7 @@ const Home = (props) => {
                   </span>
                 </div>
                 <div className="home-container18">
-                  <span className="home-title12">Ease of Use:</span>
+                  <span className="home-title12">Ease of Use</span>
                   <span className="home-text24">
                     Generate compelling real estate ad texts with minimal
                     effort, simplifying your advertising process regardless of
@@ -269,27 +267,6 @@ const Home = (props) => {
                 Join the waiting list today
               </a>
             </div>
-          </div>
-          <div>
-            <Script
-              html={`<script>
-  (() => {
-    const script = document.createElement("script");
-    script.setAttribute("type", "text/javascript");
-    script.src = "https://js.hsforms.net/forms/embed/v2.js";
-
-    script.addEventListener("load", () => {
-      hbspt.forms.create({
-        region: "eu1",
-    portalId: "139812376",
-    formId: "17db6cfe-918b-43eb-9fee-675ae774b02d"
-      });
-    });
-
-    document.head.append(script);
-  })();
-</script>`}
-            ></Script>
           </div>
         </div>
         <footer className="home-footer">
@@ -335,7 +312,6 @@ const Home = (props) => {
             display: flex;
             align-items: flex-start;
             margin-right: var(--dl-space-space-twounits);
-            margin-bottom: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
           .home-subtitle {
@@ -378,15 +354,6 @@ const Home = (props) => {
             padding-top: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-unit);
           }
-          .home-hero-image {
-            flex: 1;
-            height: 614px;
-            max-width: 550px;
-            object-fit: cover;
-            border-radius: 0px;
-            border-top-left-radius: 0;
-            border-top-right-radius: 0;
-          }
           .home-graphic-top {
             top: -68px;
             right: -320px;
@@ -403,6 +370,15 @@ const Home = (props) => {
             bottom: 0px;
             position: absolute;
             object-fit: contain;
+          }
+          .home-hero-image {
+            flex: 1;
+            height: 614px;
+            max-width: 550px;
+            object-fit: cover;
+            border-radius: 0px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
           }
           .home-section {
             padding-top: var(--dl-space-space-twounits);
@@ -755,16 +731,15 @@ const Home = (props) => {
             flex: 1;
             margin: 0px;
             display: flex;
-            padding: var(--dl-space-space-unit);
             align-items: flex-start;
-            padding-top: var(--dl-space-space-halfunit);
+            padding-top: var(--dl-space-space-unit);
             border-color: var(--dl-color-scheme-000080);
             border-width: 1px;
-            padding-left: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
             border-radius: var(--dl-radius-radius-radius16);
-            padding-right: var(--dl-space-space-halfunit);
+            padding-right: var(--dl-space-space-unit);
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-halfunit);
+            padding-bottom: var(--dl-space-space-unit);
           }
           .home-title07 {
             color: var(--dl-color-scheme-000080);
@@ -1075,6 +1050,7 @@ const Home = (props) => {
               margin-top: 10px;
             }
             .home-hero-image {
+              width: 100%;
               margin-right: 0px;
             }
             .home-content1 {
@@ -1107,10 +1083,14 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-hero {
+              height: 1111px;
+            }
             .home-content {
-              height: 596px;
+              height: 713px;
               align-items: flex-start;
               padding-top: 0px;
+              margin-bottom: 0px;
             }
             .home-title {
               color: var(--dl-color-scheme-white);
@@ -1133,8 +1113,9 @@ const Home = (props) => {
               text-align: center;
             }
             .home-hero-image {
-              width: 454px;
-              height: 548px;
+              width: 100%;
+              height: auto;
+              padding-right: 0px;
             }
             .home-container01 {
               flex-direction: column;
