@@ -190,17 +190,17 @@ const Home = (props) => {
                 <div className="home-container12">
                   <span className="home-title07">Time Efficiency</span>
                   <span className="home-text18">
-                    Users can significantly reduce the time spent on crafting
-                    descriptive texts for their listings, allowing more focus on
-                    other core business activities.
+                    Craft multiple property descriptions swiftly, freeing up
+                    your precious time to concentrate on strategic business
+                    activities.
                   </span>
                 </div>
                 <div className="home-container13">
                   <span className="home-title08">Cost Savings</span>
                   <span className="home-text19">
-                    By reducing the need for dedicated copywriters, users can
-                    save costs and still get high-quality text descriptions for
-                    their ads.
+                    Slash your budget on copywriting without compromising on
+                    content quality - create impressive ad descriptions while
+                    saving costs.
                   </span>
                 </div>
               </div>
@@ -217,8 +217,9 @@ const Home = (props) => {
                     Improved Customer Engagement
                   </span>
                   <span className="home-text21">
-                    Customer-centric content helps better engage potential
-                    buyers, increasing the chances of successful transactions.
+                    Strengthen client engagement with content that speaks
+                    directly to potential buyers, driving more successful
+                    transactions.
                   </span>
                 </div>
               </div>
@@ -226,18 +227,17 @@ const Home = (props) => {
                 <div className="home-container18">
                   <span className="home-title11">Adaptability</span>
                   <span className="home-text22">
-                    With continuous learning, the AI&apos;s performance gets
-                    better over time, making the ad texts more effective and
-                    aligned with user needs.
+                    As the AI refines its understanding with each use, it
+                    delivers increasingly effective ad texts, enhancing your
+                    advertisements&apos; impact.
                   </span>
                 </div>
                 <div className="home-container19">
                   <span className="home-title12">Ease of Use:</span>
                   <span className="home-text23">
-                    Even without any technical knowledge, users can effortlessly
-                    generate high-quality real estate ad texts. This ease of use
-                    not only saves time but also reduces the stress of content
-                    creation, making advertising a breeze for users.
+                    Generate compelling real estate ad texts with minimal
+                    effort, simplifying your advertising process regardless of
+                    your technical expertise.
                   </span>
                 </div>
               </div>
@@ -259,7 +259,7 @@ const Home = (props) => {
           </div>
           <div>
             <Script
-              html={`<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+              html={`<script charset="utf-8" type="text/javascript" src="https://js-eu1.hsforms.net/forms/embed/v2.js"></script>
 <script>
   hbspt.forms.create({
     region: "eu1",
@@ -719,8 +719,7 @@ const Home = (props) => {
             align-items: stretch;
           }
           .home-content2 {
-            flex: 1;
-            width: auto;
+            width: 40%;
             display: flex;
             margin-right: var(--dl-space-space-twounits);
             flex-direction: column;
@@ -751,6 +750,7 @@ const Home = (props) => {
           }
           .home-container12 {
             flex: 1;
+            margin: 0px;
             display: flex;
             padding: var(--dl-space-space-unit);
             align-items: flex-start;
@@ -759,7 +759,6 @@ const Home = (props) => {
             border-width: 1px;
             padding-left: var(--dl-space-space-halfunit);
             border-radius: var(--dl-radius-radius-radius16);
-            margin-bottom: var(--dl-space-space-unit);
             padding-right: var(--dl-space-space-halfunit);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-halfunit);
@@ -781,12 +780,12 @@ const Home = (props) => {
           .home-container13 {
             flex: 1;
             display: flex;
-            padding: var(--dl-space-space-halfunit);
+            padding: var(--dl-space-space-unit);
             align-items: flex-start;
             border-color: var(--dl-color-scheme-000080);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius16);
-            margin-bottom: var(--dl-space-space-unit);
+            margin-bottom: 0px;
             flex-direction: column;
           }
           .home-title08 {
@@ -805,17 +804,18 @@ const Home = (props) => {
           }
           .home-container14 {
             gap: var(--dl-space-space-unit);
+            flex: 1;
             display: flex;
           }
           .home-container15 {
             flex: 1;
             display: flex;
-            padding: var(--dl-space-space-halfunit);
+            padding: var(--dl-space-space-unit);
             align-items: flex-start;
             border-color: var(--dl-color-scheme-000080);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius16);
-            margin-bottom: var(--dl-space-space-unit);
+            margin-bottom: 0px;
             flex-direction: column;
           }
           .home-title09 {
@@ -834,9 +834,8 @@ const Home = (props) => {
           }
           .home-container16 {
             flex: 1;
-            margin: var(--dl-space-space-halfunit);
             display: flex;
-            padding: var(--dl-space-space-halfunit);
+            padding: var(--dl-space-space-unit);
             align-items: flex-start;
             border-color: var(--dl-color-scheme-000080);
             border-width: 1px;
@@ -863,8 +862,8 @@ const Home = (props) => {
           }
           .home-container18 {
             flex: 1;
-            margin: var(--dl-space-space-halfunit);
             display: flex;
+            padding: var(--dl-space-space-unit);
             align-items: flex-start;
             border-color: var(--dl-color-scheme-000080);
             border-width: 1px;
@@ -888,7 +887,7 @@ const Home = (props) => {
           .home-container19 {
             flex: 1;
             display: flex;
-            padding: var(--dl-space-space-halfunit);
+            padding: var(--dl-space-space-unit);
             align-items: flex-start;
             border-color: var(--dl-color-scheme-000080);
             border-width: 1px;
@@ -926,6 +925,7 @@ const Home = (props) => {
             align-items: center;
             border-radius: 48px;
             flex-direction: column;
+            padding-bottom: 64px;
             background-size: cover;
             background-image: url('/group%2011-1500w.png');
           }
