@@ -257,7 +257,16 @@ const Home = (props) => {
               <span>write better real estate ads</span>
               <br></br>
             </h1>
-            <div className="home-btns"></div>
+            <div className="home-container20">
+              <a
+                href="https://share-eu1.hsforms.com/1YYhEHd2LRvSrPetrL-g6UQ2b8p0m"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link1 button"
+              >
+                Join the waiting list today
+              </a>
+            </div>
           </div>
           <div>
             <Script
@@ -351,7 +360,7 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
           }
           .home-link {
-            width: 100%;
+            width: auto;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-halfunit);
@@ -939,12 +948,21 @@ const Home = (props) => {
             line-height: 1.25;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-btns {
-            flex: 0 0 auto;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
+          .home-container20 {
+            width: 100%;
             display: flex;
-            align-items: stretch;
-            flex-direction: row;
+            margin-top: var(--dl-space-space-unit);
+            align-items: center;
+            margin-bottom: var(--dl-space-space-unit);
+            flex-direction: column;
+          }
+          .home-link1 {
+            width: auto;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: 0px;
+            text-decoration: none;
+            background-color: var(--dl-color-scheme-orange100);
           }
           .home-footer {
             width: 100%;
