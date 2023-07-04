@@ -1059,7 +1059,9 @@ const Home = (props) => {
               flex-direction: column-reverse;
             }
             .home-content {
+              order: 2;
               width: 100%;
+              padding-top: var(--dl-space-space-halfunit);
               margin-right: 0px;
               margin-bottom: 0px;
             }
@@ -1075,6 +1077,12 @@ const Home = (props) => {
             .home-content1 {
               width: 100%;
               margin-right: 0px;
+            }
+            .home-container02 {
+              flex-direction: column;
+            }
+            .home-container06 {
+              flex-direction: column;
             }
             .home-content2 {
               width: 100%;
