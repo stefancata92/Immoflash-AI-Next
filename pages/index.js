@@ -30,7 +30,15 @@ const Home = (props) => {
                 immoflash Ad Compose System
               </span>
               <h1 className="home-title">
-                Write better &amp; faster real estate ads with immoFlash AI
+                <span>
+                  Write better &amp; faster real estate ads with
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span className="home-text01">immoFlash AI</span>
               </h1>
               <span className="home-description">
                 {' '}
@@ -71,18 +79,18 @@ const Home = (props) => {
         <div className="home-section section-container">
           <div className="home-max-width2 max-width">
             <div className="home-content1">
-              <span className="home-text beforeHeading">how it works</span>
-              <h1 className="home-text01">immoFlash features</h1>
+              <span className="home-text02 beforeHeading">how it works</span>
+              <h1 className="home-text03">immoFlash features</h1>
               <div className="home-container02">
                 <div className="home-step">
                   <div className="home-number">
-                    <span className="home-text02">1</span>
+                    <span className="home-text04">1</span>
                   </div>
                   <div className="home-container03">
                     <span className="home-title01">
                       AI-Powered Text Generation
                     </span>
-                    <span className="home-text03">
+                    <span className="home-text05">
                       The platform uses advanced AI to generate text for real
                       estate advertisements.
                     </span>
@@ -90,11 +98,11 @@ const Home = (props) => {
                 </div>
                 <div className="home-step1">
                   <div className="home-number1">
-                    <span className="home-text04">2</span>
+                    <span className="home-text06">2</span>
                   </div>
                   <div className="home-container04">
                     <span className="home-title02">Personalization</span>
-                    <span className="home-text05">
+                    <span className="home-text07">
                       Users can create personalized profiles for the AI to use,
                       ensuring the generated text aligns with their brand and
                       specific needs.
@@ -103,13 +111,13 @@ const Home = (props) => {
                 </div>
                 <div className="home-step2">
                   <div className="home-number2">
-                    <span className="home-text06">3</span>
+                    <span className="home-text08">3</span>
                   </div>
                   <div className="home-container05">
                     <span className="home-title03">
                       Scalable Content Creation
                     </span>
-                    <span className="home-text07">
+                    <span className="home-text09">
                       The platform can generate content for multiple listings
                       simultaneously, handling anything from a single property
                       to a large real estate portfolio.
@@ -120,13 +128,13 @@ const Home = (props) => {
               <div className="home-container06">
                 <div className="home-step3">
                   <div className="home-number3">
-                    <span className="home-text08">4</span>
+                    <span className="home-text10">4</span>
                   </div>
                   <div className="home-container07">
                     <span className="home-title04">
                       Customer-Centric Approach
                     </span>
-                    <span className="home-text09">
+                    <span className="home-text11">
                       The AI has a deep understanding of human language and can
                       produce customer-centric advertising content.
                     </span>
@@ -134,11 +142,11 @@ const Home = (props) => {
                 </div>
                 <div className="home-step4">
                   <div className="home-number4">
-                    <span className="home-text10">5</span>
+                    <span className="home-text12">5</span>
                   </div>
                   <div className="home-container08">
                     <span className="home-title05">Continual Learning</span>
-                    <span className="home-text11">
+                    <span className="home-text13">
                       The AI learns and adapts from each interaction, improving
                       its performance over time.
                     </span>
@@ -146,13 +154,13 @@ const Home = (props) => {
                 </div>
                 <div className="home-step5">
                   <div className="home-number5">
-                    <span className="home-text12">6</span>
+                    <span className="home-text14">6</span>
                   </div>
                   <div className="home-container09">
                     <span className="home-title06">
                       User-Friendly Interface
                     </span>
-                    <span className="home-text13">
+                    <span className="home-text15">
                       Our platform is designed with user experience in mind. It
                       features an intuitive, easy-to-navigate interface that
                       enables users to input their preferences and generate
@@ -167,8 +175,8 @@ const Home = (props) => {
         <div className="home-section1 section-container">
           <div className="home-max-width3 max-width">
             <div className="home-content2">
-              <h1 className="home-text14">Unlock Exceptional Benefits</h1>
-              <span className="home-text15">
+              <h1 className="home-text16">Unlock Exceptional Benefits</h1>
+              <span className="home-text17">
                 Experience the transformative power of AI in streamlining your
                 real estate advertising. Discover how our platform can save you
                 time, enhance your branding, and engage your customers like
@@ -179,7 +187,7 @@ const Home = (props) => {
               <div className="home-container11">
                 <div className="home-container12">
                   <span className="home-title07">Time Efficiency</span>
-                  <span className="home-text16">
+                  <span className="home-text18">
                     Users can significantly reduce the time spent on crafting
                     descriptive texts for their listings, allowing more focus on
                     other core business activities.
@@ -187,7 +195,7 @@ const Home = (props) => {
                 </div>
                 <div className="home-container13">
                   <span className="home-title08">Cost Savings</span>
-                  <span className="home-text17">
+                  <span className="home-text19">
                     By reducing the need for dedicated copywriters, users can
                     save costs and still get high-quality text descriptions for
                     their ads.
@@ -197,7 +205,7 @@ const Home = (props) => {
               <div className="home-container14">
                 <div className="home-container15">
                   <span className="home-title09">Consistent Branding</span>
-                  <span className="home-text18">
+                  <span className="home-text20">
                     Regardless of the number of listings, users can maintain a
                     consistent brand voice across all their ads.
                   </span>
@@ -206,7 +214,7 @@ const Home = (props) => {
                   <span className="home-title10">
                     Improved Customer Engagement
                   </span>
-                  <span className="home-text19">
+                  <span className="home-text21">
                     Customer-centric content helps better engage potential
                     buyers, increasing the chances of successful transactions.
                   </span>
@@ -215,7 +223,7 @@ const Home = (props) => {
               <div className="home-container17">
                 <div className="home-container18">
                   <span className="home-title11">Adaptability</span>
-                  <span className="home-text20">
+                  <span className="home-text22">
                     With continuous learning, the AI&apos;s performance gets
                     better over time, making the ad texts more effective and
                     aligned with user needs.
@@ -223,7 +231,7 @@ const Home = (props) => {
                 </div>
                 <div className="home-container19">
                   <span className="home-title12">Ease of Use:</span>
-                  <span className="home-text21">
+                  <span className="home-text23">
                     Even without any technical knowledge, users can effortlessly
                     generate high-quality real estate ad texts. This ease of use
                     not only saves time but also reduces the stress of content
@@ -236,8 +244,8 @@ const Home = (props) => {
         </div>
         <div className="home-container20">
           <div className="home-banner">
-            <span className="home-text22 beforeHeading">JOIN THE WAITLIST</span>
-            <h1 className="home-text23">
+            <span className="home-text24 beforeHeading">JOIN THE WAITLIST</span>
+            <h1 className="home-text25">
               <span>
                 Join today to outsmart the competition, save time and 
               </span>
@@ -250,7 +258,7 @@ const Home = (props) => {
         </div>
         <footer className="home-footer">
           <div className="home-links-container">
-            <span className="home-text28">
+            <span className="home-text30">
               @2023 Immoflash. All rights reserved
             </span>
           </div>
@@ -314,6 +322,9 @@ const Home = (props) => {
             font-weight: 700;
             line-height: 1.2;
             margin-bottom: var(--dl-space-space-twounits);
+          }
+          .home-text01 {
+            color: var(--dl-color-scheme-orange100);
           }
           .home-description {
             color: var(--dl-color-scheme-white);
@@ -389,12 +400,12 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text {
+          .home-text02 {
             color: var(--dl-color-scheme-blue80);
             align-self: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text01 {
+          .home-text03 {
             font-size: 42px;
             align-self: center;
             font-style: normal;
@@ -430,7 +441,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-scheme-orange100);
           }
-          .home-text02 {
+          .home-text04 {
             font-size: 28px;
             font-style: normal;
             font-family: Urbanist;
@@ -452,7 +463,7 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text03 {
+          .home-text05 {
             color: var(--dl-color-scheme-000080);
             width: auto;
             line-height: 1.5;
@@ -477,7 +488,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-scheme-orange100);
           }
-          .home-text04 {
+          .home-text06 {
             font-size: 28px;
             font-style: normal;
             font-family: Urbanist;
@@ -499,7 +510,7 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text05 {
+          .home-text07 {
             color: var(--dl-color-scheme-blue80);
             line-height: 1.5;
           }
@@ -521,7 +532,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-scheme-orange100);
           }
-          .home-text06 {
+          .home-text08 {
             font-size: 28px;
             font-style: normal;
             font-family: Urbanist;
@@ -543,7 +554,7 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text07 {
+          .home-text09 {
             color: var(--dl-color-scheme-blue80);
             line-height: 1.5;
           }
@@ -571,7 +582,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-scheme-orange100);
           }
-          .home-text08 {
+          .home-text10 {
             font-size: 28px;
             font-style: normal;
             font-family: Urbanist;
@@ -593,7 +604,7 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text09 {
+          .home-text11 {
             color: var(--dl-color-scheme-blue80);
             line-height: 1.5;
           }
@@ -615,7 +626,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-scheme-orange100);
           }
-          .home-text10 {
+          .home-text12 {
             font-size: 28px;
             font-style: normal;
             font-family: Urbanist;
@@ -637,7 +648,7 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text11 {
+          .home-text13 {
             color: var(--dl-color-scheme-blue80);
             line-height: 1.5;
           }
@@ -659,7 +670,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: var(--dl-color-scheme-orange100);
           }
-          .home-text12 {
+          .home-text14 {
             font-size: 28px;
             font-style: normal;
             font-family: Urbanist;
@@ -681,7 +692,7 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text13 {
+          .home-text15 {
             color: var(--dl-color-scheme-blue80);
             line-height: 1.5;
           }
@@ -701,7 +712,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text14 {
+          .home-text16 {
             font-size: 42px;
             font-style: normal;
             font-family: Urbanist;
@@ -709,7 +720,7 @@ const Home = (props) => {
             line-height: 1.25;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text15 {
+          .home-text17 {
             font-size: 16px;
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-threeunits);
@@ -740,7 +751,7 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text16 {
+          .home-text18 {
             color: var(--dl-color-scheme-000080);
             width: auto;
             line-height: 1.5;
@@ -761,7 +772,7 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text17 {
+          .home-text19 {
             color: var(--dl-color-scheme-000080);
             width: auto;
             line-height: 1.5;
@@ -786,7 +797,7 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text18 {
+          .home-text20 {
             color: var(--dl-color-scheme-000080);
             width: auto;
             line-height: 1.5;
@@ -807,7 +818,7 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text19 {
+          .home-text21 {
             color: var(--dl-color-scheme-000080);
             width: auto;
             line-height: 1.5;
@@ -832,7 +843,7 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text20 {
+          .home-text22 {
             color: var(--dl-color-scheme-000080);
             width: auto;
             line-height: 1.5;
@@ -852,7 +863,7 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text21 {
+          .home-text23 {
             color: var(--dl-color-scheme-000080);
             width: auto;
             line-height: 1.5;
@@ -875,11 +886,11 @@ const Home = (props) => {
             background-size: cover;
             background-image: url('/group%2011-1500w.png');
           }
-          .home-text22 {
+          .home-text24 {
             color: var(--dl-color-scheme-blue80);
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text23 {
+          .home-text25 {
             color: var(--dl-color-scheme-000080);
             font-size: 42px;
             font-style: normal;
@@ -916,7 +927,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-text28 {
+          .home-text30 {
             color: var(--dl-color-scheme-lightblue);
             margin-bottom: 0px;
           }
@@ -969,7 +980,7 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text15 {
+            .home-text17 {
               margin-bottom: 0px;
             }
             .home-container12 {
