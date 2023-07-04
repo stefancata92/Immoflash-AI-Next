@@ -6,8 +6,16 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Immoflash AI</title>
-          <meta property="og:title" content="Immoflash AI" />
+          <title>ImmoFlash AI</title>
+          <meta
+            name="description"
+            content="Our state-of-the-art platform delivers high-quality real estate seo at lightning speed, powered by advanced artificial intelligence."
+          />
+          <meta property="og:title" content="ImmoFlash AI" />
+          <meta
+            property="og:description"
+            content="Our state-of-the-art platform delivers high-quality real estate seo at lightning speed, powered by advanced artificial intelligence."
+          />
         </Head>
         <div className="home-navbar navbar-container">
           <div className="home-max-width max-width">

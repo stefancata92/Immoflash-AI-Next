@@ -25,6 +25,12 @@ class CustomDocument extends Document {
             data-tag="default-style-sheet"
           ></style>
           <link
+            rel="shortcut icon"
+            href="/facebook_cover.png"
+            type="icon/png"
+            sizes="32x32"
+          ></link>
+          <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
             data-tag="font"
@@ -44,6 +50,18 @@ class CustomDocument extends Document {
         <body>
           <Main></Main>
           <NextScript></NextScript>
+          <script
+            type="text/javascript"
+            src="https://www.googletagmanager.com/gtag/js?id=G-MM443FGS5D"
+            async
+          ></script>
+          <script
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html:
+                "window.dataLayer = window.dataLayer || [];\n        function gtag(){dataLayer.push(arguments);}\n        gtag('js', new Date());\n        gtag('config', 'G-MM443FGS5D');",
+            }}
+          ></script>
           <div
             dangerouslySetInnerHTML={{
               __html:
