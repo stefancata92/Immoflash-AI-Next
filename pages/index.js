@@ -21,7 +21,6 @@ const Home = (props) => {
         </Head>
         <div className="home-navbar navbar-container">
           <div className="home-max-width max-width">
-            <div className="home-logo"></div>
             <img alt="image" src="/immoflash_logo.svg" className="home-image" />
           </div>
         </div>
@@ -49,10 +48,119 @@ const Home = (props) => {
                 intelligence. You&apos;re harnessing the power of AI to boost
                 your sales, optimise your processes, and outpace competition.
               </span>
-              <div className="home-container01">
-                <button type="button" className="home-button button">
-                  Join today the waitlist
-                </button>
+              <button type="button" className="home-button button">
+                Join the waiting list today
+              </button>
+              <div className="home-div">
+                <Script
+                  html={`<div id="mc_embed_shell">
+  <div id="mc_embed_signup">
+    <form
+      action="https://gmail.us2.list-manage.com/subscribe/post?u=3fcb77dbb79d04ea1e6f2cc9a&amp;id=f602fc0ad7&amp;v_id=4454&amp;f_id=00f94de0f0"
+      method="post"
+      id="mc-embedded-subscribe-form"
+      name="mc-embedded-subscribe-form"
+      class="validate"
+      target="_self"
+      novalidate=""
+    >
+      <div id="mc_embed_signup_scroll" style="font-family:Inter, sans-serif;color:#fff;">
+          <label for="mce-EMAIL" style="margin-bottom: 5px; display:block;">
+            Email Address
+            <span class="asterisk">*</span>
+          </label>
+          <div style="display:flex;gap: 10px;">
+          <input
+            type="email"
+            name="EMAIL"
+            class="required email"
+            placeholder="Email"
+            id="mce-EMAIL"
+            required=""
+            value=""
+            style="padding: 10px 20px; border-radius: 20px; width: 100%;"
+          />
+          <input 
+            style="background-color:#FFA784; border-radius: 20px; padding:10px 25px;font-weight: 600;" 
+            type="submit" 
+            name="subscribe" 
+            id="mc-embedded-subscribe" 
+            class="button" 
+            value="Join today the waitlist"
+          />
+          </div>
+        </div>
+        <div
+          id="mergeRow-gdpr"
+          class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group"
+          style="color: #fff; font-family: 'Inter';"
+        >
+          <div class="content__gdpr">
+            <label style="margin-bottom: 5px; font-weigth: 600; margin-top: 10px; display: block">Marketing Permissions</label>
+            <p>
+              Please select all the ways you would like to hear from Immoflash
+            </p>
+            <fieldset
+              style="padding: 10px 0;"
+              class="mc_fieldset gdprRequired mc-field-group"
+              name="interestgroup_field"
+            >
+              <label class="checkbox subfield" for="gdpr25398" style="display:flex; gap: 4px;">
+                <input
+                  type="checkbox"
+                  id="gdpr_25398"
+                  name="gdpr[25398]"
+                  class="gdpr"
+                  value="Y"
+                  style="padding: 5px;"
+                />
+                <span style="color:#adadf0;">Email</span>
+              </label>
+            </fieldset>
+           <p style="font-size: 12px; color:#9898dd; margin-bottom: 5px;">
+              You can unsubscribe at any time by clicking the link in the footer
+              of our emails. For information about our privacy practices, please
+              visit our website.
+            </p>
+          </div>
+          <div class="content__gdprLegal">
+            <p style="font-size: 12px; color:#9898dd;">
+              We use Mailchimp as our marketing platform. By clicking below to
+              subscribe, you acknowledge that your information will be
+              transferred to Mailchimp for processing. </br>
+              <a href="https://mailchimp.com/legal/terms" target="_blank">Learn
+              more about Mailchimp's privacy practices here.</a>
+            </p>
+          </div>
+        </div>
+        <div id="mce-responses" class="clear foot">
+         <div
+            class="response"
+            id="mce-error-response"
+            style="display: none;"
+          ></div>
+          <div
+            class="response"
+            id="mce-success-response"
+            style="display: none;"
+          ></div>
+        </div>
+        <div aria-hidden="true" style="position: absolute; left: -5000px;">
+          <!-- real people should not fill this in and expect good things - do not
+          remove this or risk form bot signups -->
+          <input
+            type="text"
+            name="b_3fcb77dbb79d04ea1e6f2cc9a_f602fc0ad7"
+            tabindex="-1"
+            value=""
+          />
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`}
+                ></Script>
               </div>
               <span className="home-description1">
                 *Only 12 spots left in pre-alpha, be the first to implement it
@@ -83,12 +191,12 @@ const Home = (props) => {
             <div className="home-content1">
               <span className="home-text02 beforeHeading">how it works</span>
               <h1 className="home-text03">immoFlash features</h1>
-              <div className="home-container02">
+              <div className="home-container01">
                 <div className="home-step">
                   <div className="home-number">
                     <span className="home-text04">1</span>
                   </div>
-                  <div className="home-container03">
+                  <div className="home-container02">
                     <span className="home-title01">
                       AI-Powered Text Generation
                     </span>
@@ -102,7 +210,7 @@ const Home = (props) => {
                   <div className="home-number1">
                     <span className="home-text06">2</span>
                   </div>
-                  <div className="home-container04">
+                  <div className="home-container03">
                     <span className="home-title02">Personalization</span>
                     <span className="home-text07">
                       Users can create personalized profiles for the AI to use,
@@ -115,7 +223,7 @@ const Home = (props) => {
                   <div className="home-number2">
                     <span className="home-text08">3</span>
                   </div>
-                  <div className="home-container05">
+                  <div className="home-container04">
                     <span className="home-title03">
                       Scalable Content Creation
                     </span>
@@ -127,12 +235,12 @@ const Home = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="home-container06">
+              <div className="home-container05">
                 <div className="home-step3">
                   <div className="home-number3">
                     <span className="home-text10">4</span>
                   </div>
-                  <div className="home-container07">
+                  <div className="home-container06">
                     <span className="home-title04">
                       Customer-Centric Approach
                     </span>
@@ -146,7 +254,7 @@ const Home = (props) => {
                   <div className="home-number4">
                     <span className="home-text12">5</span>
                   </div>
-                  <div className="home-container08">
+                  <div className="home-container07">
                     <span className="home-title05">Continual Learning</span>
                     <span className="home-text13">
                       The AI learns and adapts from each interaction, improving
@@ -158,7 +266,7 @@ const Home = (props) => {
                   <div className="home-number5">
                     <span className="home-text14">6</span>
                   </div>
-                  <div className="home-container09">
+                  <div className="home-container08">
                     <span className="home-title06">
                       User-Friendly Interface
                     </span>
@@ -185,9 +293,9 @@ const Home = (props) => {
                 never before.
               </span>
             </div>
-            <div className="home-container10">
-              <div className="home-container11">
-                <div className="home-container12">
+            <div className="home-container09">
+              <div className="home-container10">
+                <div className="home-container11">
                   <span className="home-title07">Time Efficiency</span>
                   <span className="home-text18">
                     Craft multiple property descriptions swiftly, freeing up
@@ -195,7 +303,7 @@ const Home = (props) => {
                     activities.
                   </span>
                 </div>
-                <div className="home-container13">
+                <div className="home-container12">
                   <span className="home-title08">Cost Savings</span>
                   <span className="home-text19">
                     Slash your budget on copywriting without compromising on
@@ -204,15 +312,15 @@ const Home = (props) => {
                   </span>
                 </div>
               </div>
-              <div className="home-container14">
-                <div className="home-container15">
+              <div className="home-container13">
+                <div className="home-container14">
                   <span className="home-title09">Consistent Branding</span>
                   <span className="home-text20">
                     Regardless of the number of listings, users can maintain a
                     consistent brand voice across all their ads.
                   </span>
                 </div>
-                <div className="home-container16">
+                <div className="home-container15">
                   <span className="home-title10">
                     Improved Customer Engagement
                   </span>
@@ -223,8 +331,8 @@ const Home = (props) => {
                   </span>
                 </div>
               </div>
-              <div className="home-container17">
-                <div className="home-container18">
+              <div className="home-container16">
+                <div className="home-container17">
                   <span className="home-title11">Adaptability</span>
                   <span className="home-text22">
                     As the AI refines its understanding with each use, it
@@ -232,7 +340,7 @@ const Home = (props) => {
                     advertisements&apos; impact.
                   </span>
                 </div>
-                <div className="home-container19">
+                <div className="home-container18">
                   <span className="home-title12">Ease of Use:</span>
                   <span className="home-text23">
                     Generate compelling real estate ad texts with minimal
@@ -244,7 +352,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-container20">
+        <div className="home-container19">
           <div className="home-banner">
             <span className="home-text24 beforeHeading">JOIN THE WAITLIST</span>
             <h1 className="home-text25">
@@ -259,13 +367,22 @@ const Home = (props) => {
           </div>
           <div>
             <Script
-              html={`<script charset="utf-8" type="text/javascript" src="https://js-eu1.hsforms.net/forms/embed/v2.js"></script>
-<script>
-  hbspt.forms.create({
-    region: "eu1",
+              html={`<script>
+  (() => {
+    const script = document.createElement("script");
+    script.setAttribute("type", "text/javascript");
+    script.src = "https://js.hsforms.net/forms/embed/v2.js";
+
+    script.addEventListener("load", () => {
+      hbspt.forms.create({
+        region: "eu1",
     portalId: "139812376",
     formId: "17db6cfe-918b-43eb-9fee-675ae774b02d"
-  });
+      });
+    });
+
+    document.head.append(script);
+  })();
 </script>`}
             ></Script>
           </div>
@@ -294,13 +411,6 @@ const Home = (props) => {
           .home-max-width {
             align-self: center;
             justify-content: center;
-          }
-          .home-logo {
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
           }
           .home-image {
             width: 111px;
@@ -346,21 +456,17 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-container01 {
-            width: 100%;
-            height: auto;
-            display: flex;
-            align-items: flex-start;
-          }
           .home-button {
-            font-size: 18px;
+            width: 100%;
             font-style: normal;
             font-weight: 700;
-            margin-left: 0px;
-            border-width: 0px;
-            margin-right: 0px;
-            margin-bottom: var(--dl-space-space-halfunit);
             background-color: var(--dl-color-scheme-orange100);
+          }
+          .home-div {
+            color: #fff;
+            width: 100%;
+            height: 250px;
+            margin-bottom: var(--dl-space-space-unit);
           }
           .home-description1 {
             color: var(--dl-color-scheme-white);
@@ -428,7 +534,7 @@ const Home = (props) => {
             line-height: 1.25;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-container02 {
+          .home-container01 {
             width: 100%;
             display: flex;
             margin-top: 20px;
@@ -462,7 +568,7 @@ const Home = (props) => {
             font-weight: 700;
             line-height: 1.5;
           }
-          .home-container03 {
+          .home-container02 {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -509,7 +615,7 @@ const Home = (props) => {
             font-weight: 700;
             line-height: 1.5;
           }
-          .home-container04 {
+          .home-container03 {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -553,7 +659,7 @@ const Home = (props) => {
             font-weight: 700;
             line-height: 1.5;
           }
-          .home-container05 {
+          .home-container04 {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -572,7 +678,7 @@ const Home = (props) => {
             color: var(--dl-color-scheme-blue80);
             line-height: 1.5;
           }
-          .home-container06 {
+          .home-container05 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -603,7 +709,7 @@ const Home = (props) => {
             font-weight: 700;
             line-height: 1.5;
           }
-          .home-container07 {
+          .home-container06 {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -647,7 +753,7 @@ const Home = (props) => {
             font-weight: 700;
             line-height: 1.5;
           }
-          .home-container08 {
+          .home-container07 {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -691,7 +797,7 @@ const Home = (props) => {
             font-weight: 700;
             line-height: 1.5;
           }
-          .home-container09 {
+          .home-container08 {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -738,17 +844,17 @@ const Home = (props) => {
             line-height: 1.5;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-container10 {
+          .home-container09 {
             gap: var(--dl-space-space-unit);
             flex: 1;
             display: flex;
             flex-wrap: wrap;
           }
-          .home-container11 {
+          .home-container10 {
             gap: var(--dl-space-space-unit);
             display: flex;
           }
-          .home-container12 {
+          .home-container11 {
             flex: 1;
             margin: 0px;
             display: flex;
@@ -777,7 +883,7 @@ const Home = (props) => {
             width: auto;
             line-height: 1.5;
           }
-          .home-container13 {
+          .home-container12 {
             flex: 1;
             display: flex;
             padding: var(--dl-space-space-unit);
@@ -802,12 +908,12 @@ const Home = (props) => {
             width: auto;
             line-height: 1.5;
           }
-          .home-container14 {
+          .home-container13 {
             gap: var(--dl-space-space-unit);
             flex: 1;
             display: flex;
           }
-          .home-container15 {
+          .home-container14 {
             flex: 1;
             display: flex;
             padding: var(--dl-space-space-unit);
@@ -832,7 +938,7 @@ const Home = (props) => {
             width: auto;
             line-height: 1.5;
           }
-          .home-container16 {
+          .home-container15 {
             flex: 1;
             display: flex;
             padding: var(--dl-space-space-unit);
@@ -856,11 +962,11 @@ const Home = (props) => {
             width: auto;
             line-height: 1.5;
           }
-          .home-container17 {
+          .home-container16 {
             gap: var(--dl-space-space-unit);
             display: flex;
           }
-          .home-container18 {
+          .home-container17 {
             flex: 1;
             display: flex;
             padding: var(--dl-space-space-unit);
@@ -884,7 +990,7 @@ const Home = (props) => {
             width: auto;
             line-height: 1.5;
           }
-          .home-container19 {
+          .home-container18 {
             flex: 1;
             display: flex;
             padding: var(--dl-space-space-unit);
@@ -908,7 +1014,7 @@ const Home = (props) => {
             width: auto;
             line-height: 1.5;
           }
-          .home-container20 {
+          .home-container19 {
             flex: 0 0 auto;
             width: 100%;
             height: auto;
@@ -985,15 +1091,6 @@ const Home = (props) => {
               font-size: 17px;
               line-height: 1.5;
             }
-            .home-container01 {
-              gap: var(--dl-space-space-halfunit);
-              display: flex;
-              flex-wrap: wrap;
-              flex-direction: column;
-            }
-            .home-button {
-              margin-left: 0;
-            }
             .home-description1 {
               color: var(--dl-color-scheme-white);
               font-size: 12px;
@@ -1026,22 +1123,22 @@ const Home = (props) => {
             .home-text17 {
               margin-bottom: 0px;
             }
+            .home-container11 {
+              width: auto;
+            }
             .home-container12 {
               width: auto;
             }
-            .home-container13 {
+            .home-container14 {
               width: auto;
             }
             .home-container15 {
               width: auto;
             }
-            .home-container16 {
+            .home-container17 {
               width: auto;
             }
             .home-container18 {
-              width: auto;
-            }
-            .home-container19 {
               width: auto;
             }
             .home-footer {
@@ -1065,9 +1162,6 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: 0px;
             }
-            .home-button {
-              margin-bottom: 10px;
-            }
             .home-description1 {
               margin-top: 10px;
             }
@@ -1078,10 +1172,10 @@ const Home = (props) => {
               width: 100%;
               margin-right: 0px;
             }
-            .home-container02 {
+            .home-container01 {
               flex-direction: column;
             }
-            .home-container06 {
+            .home-container05 {
               flex-direction: column;
             }
             .home-content2 {
@@ -1107,24 +1201,13 @@ const Home = (props) => {
             .home-max-width1 {
               flex-direction: column;
             }
-            .home-container01 {
-              display: flex;
-              flex-wrap: wrap;
-              align-items: center;
-              flex-direction: column;
-              justify-content: center;
-            }
-            .home-button {
-              width: 100%;
-              font-weight: 700;
-            }
             .home-description1 {
               text-align: center;
             }
-            .home-container02 {
+            .home-container01 {
               flex-direction: column;
             }
-            .home-container06 {
+            .home-container05 {
               flex-direction: column;
             }
             .home-banner {
