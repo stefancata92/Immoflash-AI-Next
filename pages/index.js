@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import Script from 'dangerous-html/react'
+
 const Home = (props) => {
   return (
     <>
@@ -254,6 +256,18 @@ const Home = (props) => {
               <br></br>
             </h1>
             <div className="home-btns"></div>
+          </div>
+          <div>
+            <Script
+              html={`<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "eu1",
+    portalId: "139812376",
+    formId: "17db6cfe-918b-43eb-9fee-675ae774b02d"
+  });
+</script>`}
+            ></Script>
           </div>
         </div>
         <footer className="home-footer">
@@ -738,9 +752,17 @@ const Home = (props) => {
           .home-container12 {
             flex: 1;
             display: flex;
+            padding: var(--dl-space-space-unit);
             align-items: flex-start;
+            padding-top: var(--dl-space-space-halfunit);
+            border-color: var(--dl-color-scheme-000080);
+            border-width: 1px;
+            padding-left: var(--dl-space-space-halfunit);
+            border-radius: var(--dl-radius-radius-radius16);
             margin-bottom: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-halfunit);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-halfunit);
           }
           .home-title07 {
             color: var(--dl-color-scheme-000080);
@@ -759,7 +781,11 @@ const Home = (props) => {
           .home-container13 {
             flex: 1;
             display: flex;
+            padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
+            border-color: var(--dl-color-scheme-000080);
+            border-width: 1px;
+            border-radius: var(--dl-radius-radius-radius16);
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: column;
           }
@@ -784,7 +810,11 @@ const Home = (props) => {
           .home-container15 {
             flex: 1;
             display: flex;
+            padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
+            border-color: var(--dl-color-scheme-000080);
+            border-width: 1px;
+            border-radius: var(--dl-radius-radius-radius16);
             margin-bottom: var(--dl-space-space-unit);
             flex-direction: column;
           }
@@ -804,9 +834,13 @@ const Home = (props) => {
           }
           .home-container16 {
             flex: 1;
+            margin: var(--dl-space-space-halfunit);
             display: flex;
+            padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            border-color: var(--dl-color-scheme-000080);
+            border-width: 1px;
+            border-radius: var(--dl-radius-radius-radius16);
             flex-direction: column;
           }
           .home-title10 {
@@ -829,9 +863,12 @@ const Home = (props) => {
           }
           .home-container18 {
             flex: 1;
+            margin: var(--dl-space-space-halfunit);
             display: flex;
             align-items: flex-start;
-            margin-bottom: var(--dl-space-space-unit);
+            border-color: var(--dl-color-scheme-000080);
+            border-width: 1px;
+            border-radius: var(--dl-radius-radius-radius16);
             flex-direction: column;
           }
           .home-title11 {
@@ -851,7 +888,11 @@ const Home = (props) => {
           .home-container19 {
             flex: 1;
             display: flex;
+            padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
+            border-color: var(--dl-color-scheme-000080);
+            border-width: 1px;
+            border-radius: var(--dl-radius-radius-radius16);
             flex-direction: column;
           }
           .home-title12 {
@@ -874,6 +915,8 @@ const Home = (props) => {
             height: auto;
             display: flex;
             align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
           }
           .home-banner {
             flex: 0 0 auto;
