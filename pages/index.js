@@ -311,7 +311,9 @@ const Home = (props) => {
             height: 100%;
             display: flex;
             align-items: flex-start;
+            padding-top: var(--dl-space-space-fiveunits);
             margin-right: var(--dl-space-space-twounits);
+            margin-bottom: inherit;
             flex-direction: column;
           }
           .home-subtitle {
@@ -1117,6 +1119,9 @@ const Home = (props) => {
               height: auto;
               padding-right: 0px;
             }
+            .home-text04 {
+              text-align: center;
+            }
             .home-container01 {
               flex-direction: column;
             }
@@ -1131,7 +1136,6 @@ const Home = (props) => {
             }
             .home-footer {
               padding: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-twounits);
             }
             .home-links-container {
               align-items: flex-start;
