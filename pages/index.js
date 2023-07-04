@@ -339,7 +339,7 @@ const Home = (props) => {
             flex-direction: column;
           }
           .home-subtitle {
-            color: var(--dl-color-scheme-blue80);
+            color: var(--dl-color-scheme-orange100);
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-title {
