@@ -282,19 +282,19 @@ const Home = (props) => {
           <div className="sticky-div">
             <span className="home-text32">
               <span>
-                Just Launched, our eBook on how to write better real estate ads.
+                Just Launched, our eBook on how to write better, successful real
+                estate ads
               </span>
-              <span> success</span>
               <br></br>
             </span>
-            <span className="home-text36">
+            <span className="home-text35">
               <span>
                 🎉 Just Launched, our eBook on how to write better real estate
                 ads. 
               </span>
               <span>
-                A bit of history, best practices and techniques to touch the
-                success
+                A bit of history, best practices and techniques to successful
+                real estate ads
               </span>
               <br></br>
             </span>
@@ -1004,7 +1004,7 @@ const Home = (props) => {
             display: none;
             margin-right: 20px;
           }
-          .home-text36 {
+          .home-text35 {
             margin-right: 20px;
           }
           .home-link2 {
@@ -1175,7 +1175,6 @@ const Home = (props) => {
             .home-hero-image {
               width: 434px;
               height: auto;
-              transform: scale(1.1);
               padding-right: 0px;
             }
             .home-text04 {
@@ -1208,7 +1207,7 @@ const Home = (props) => {
               display: block;
               font-size: 13px;
             }
-            .home-text36 {
+            .home-text35 {
               display: none;
               font-size: 13px;
             }
