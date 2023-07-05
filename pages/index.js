@@ -38,7 +38,7 @@ const Home = (props) => {
                   />
                 </span>
                 <br className="home-text01"></br>
-                <span className="home-text02">immoFlash AI</span>
+                <span className="home-text02">immoFlash AI tool</span>
               </h1>
               <span className="home-description">
                 {' '}
@@ -179,7 +179,9 @@ const Home = (props) => {
         <div className="home-section1 section-container">
           <div className="home-max-width3 max-width">
             <div className="home-content2">
-              <h1 className="home-text17">Unlock Exceptional Benefits</h1>
+              <h1 className="home-text17">
+                Unlock Exceptional Benefits with immoFlash
+              </h1>
               <span className="home-text18">
                 Experience the transformative power of AI in streamlining your
                 real estate advertising. Discover how our platform can save you
@@ -287,7 +289,7 @@ const Home = (props) => {
             </span>
             <span className="home-text36">
               <span>
-                Just Launched, our eBook on how to write better real estate
+                🥳 Just Launched, our eBook on how to write better real estate
                 ads. 
               </span>
               <span>
@@ -356,13 +358,13 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.2;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .home-description {
             color: var(--dl-color-scheme-white);
             font-size: 17px;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-threeunits);
           }
           .home-link {
@@ -485,7 +487,7 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .home-text06 {
@@ -532,7 +534,7 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .home-text08 {
@@ -576,7 +578,7 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .home-text10 {
@@ -626,7 +628,7 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .home-text12 {
@@ -670,7 +672,7 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .home-text14 {
@@ -714,7 +716,7 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .home-text16 {
@@ -765,7 +767,7 @@ const Home = (props) => {
             display: flex;
             align-items: flex-start;
             padding-top: var(--dl-space-space-unit);
-            border-color: var(--dl-color-scheme-000080);
+            border-color: rgba(255, 160, 122, 0.58);
             border-width: 1px;
             padding-left: var(--dl-space-space-unit);
             border-radius: var(--dl-radius-radius-radius16);
@@ -779,7 +781,7 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .home-text19 {
@@ -792,7 +794,7 @@ const Home = (props) => {
             display: flex;
             padding: var(--dl-space-space-unit);
             align-items: flex-start;
-            border-color: var(--dl-color-scheme-000080);
+            border-color: rgba(255, 160, 122, 0.58);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius16);
             margin-bottom: 0px;
@@ -804,7 +806,7 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .home-text20 {
@@ -822,7 +824,7 @@ const Home = (props) => {
             display: flex;
             padding: var(--dl-space-space-unit);
             align-items: flex-start;
-            border-color: var(--dl-color-scheme-000080);
+            border-color: rgba(255, 160, 122, 0.58);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius16);
             margin-bottom: 0px;
@@ -834,7 +836,7 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .home-text21 {
@@ -847,7 +849,7 @@ const Home = (props) => {
             display: flex;
             padding: var(--dl-space-space-unit);
             align-items: flex-start;
-            border-color: var(--dl-color-scheme-000080);
+            border-color: rgba(255, 160, 122, 0.58);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius16);
             flex-direction: column;
@@ -858,7 +860,7 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .home-text22 {
@@ -875,7 +877,7 @@ const Home = (props) => {
             display: flex;
             padding: var(--dl-space-space-unit);
             align-items: flex-start;
-            border-color: var(--dl-color-scheme-000080);
+            border-color: rgba(255, 160, 122, 0.58);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius16);
             flex-direction: column;
@@ -886,7 +888,7 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .home-text23 {
@@ -899,7 +901,7 @@ const Home = (props) => {
             display: flex;
             padding: var(--dl-space-space-unit);
             align-items: flex-start;
-            border-color: var(--dl-color-scheme-000080);
+            border-color: rgba(255, 160, 122, 0.58);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius16);
             flex-direction: column;
@@ -910,7 +912,7 @@ const Home = (props) => {
             font-style: normal;
             font-family: Urbanist;
             font-weight: 700;
-            line-height: 1.5;
+            line-height: initial;
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .home-text24 {
@@ -990,6 +992,7 @@ const Home = (props) => {
           }
           .home-text31 {
             color: var(--dl-color-scheme-lightblue);
+            font-size: 13px;
             margin-bottom: 0px;
           }
           .home-container21 {
@@ -1084,7 +1087,7 @@ const Home = (props) => {
               flex-direction: row;
             }
             .home-container21 {
-              padding: 10px 10px;
+              padding: 5px 5px;
             }
           }
           @media (max-width: 767px) {
@@ -1170,8 +1173,9 @@ const Home = (props) => {
               text-align: center;
             }
             .home-hero-image {
-              width: 100%;
+              width: 434px;
               height: auto;
+              transform: scale(1.1);
               padding-right: 0px;
             }
             .home-text04 {
