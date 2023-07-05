@@ -280,6 +280,13 @@ const Home = (props) => {
           <div className="sticky-div">
             <span className="home-text32">
               <span>
+                Just Launched, our eBook on how to write better real estate ads.
+              </span>
+              <span> success</span>
+              <br></br>
+            </span>
+            <span className="home-text36">
+              <span>
                 Just Launched, our eBook on how to write better real estate
                 ads. 
               </span>
@@ -991,6 +998,10 @@ const Home = (props) => {
             justify-content: center;
           }
           .home-text32 {
+            display: none;
+            margin-right: 20px;
+          }
+          .home-text36 {
             margin-right: 20px;
           }
           .home-link2 {
@@ -1190,10 +1201,15 @@ const Home = (props) => {
               padding: 10px 10px;
             }
             .home-text32 {
+              display: block;
+              font-size: 13px;
+            }
+            .home-text36 {
+              display: none;
               font-size: 13px;
             }
             .home-link2 {
-              width: 374px;
+              width: 398px;
               padding: 10px 5px;
               font-size: 16px;
               text-align: center;
