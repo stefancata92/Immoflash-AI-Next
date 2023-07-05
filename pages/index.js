@@ -1015,6 +1015,7 @@ const Home = (props) => {
             color: var(--dl-color-scheme-orange100);
             width: 275px;
             font-style: normal;
+            text-align: center;
             font-weight: 600;
             background-color: var(--dl-color-scheme-000080);
           }
