@@ -279,7 +279,7 @@ const Home = (props) => {
           </div>
         </footer>
         <div className="home-container21 sticky">
-          <div className="sticky-div">
+          <div className="home-container22 sticky-div">
             <span className="home-text32">
               <span>
                 Just Launched, our eBook on how to write better real estate ads.
@@ -292,9 +292,10 @@ const Home = (props) => {
                 🥳 Just Launched, our eBook on how to write better real estate
                 ads. 
               </span>
+              <br></br>
               <span>
-                A bit of history, best practices and techniques to touch the
-                success
+                A bit of history, best practices and techniques to better ads
+                that sell
               </span>
               <br></br>
             </span>
@@ -364,7 +365,7 @@ const Home = (props) => {
           .home-description {
             color: var(--dl-color-scheme-white);
             font-size: 17px;
-            line-height: initial;
+            line-height: 1.5;
             margin-bottom: var(--dl-space-space-threeunits);
           }
           .home-link {
@@ -999,6 +1000,9 @@ const Home = (props) => {
             height: 67px;
             margin-top: 100px;
             justify-content: center;
+          }
+          .home-container22 {
+            width: 933px;
           }
           .home-text32 {
             display: none;
