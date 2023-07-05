@@ -1198,6 +1198,7 @@ const Home = (props) => {
             }
             .home-footer {
               padding: var(--dl-space-space-unit);
+              padding-bottom: 100px;
             }
             .home-links-container {
               align-items: flex-start;
