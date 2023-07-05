@@ -43,7 +43,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<!-- <script type="text/javascript"> ... </script> -->\n<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>\n<script>\n  hbspt.forms.create({\n    region: "eu1",\n    portalId: "139813798",\n    formId: "6188441d-dd8b-46f4-ab3d-eb6b2fe83a51"\n  });\n</script><noscript>',
+                '</noscript><!--This is the head section-->\n<!-- <script type="text/javascript"> ... </script> -->\n<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>\n<script>\n  hbspt.forms.create({\n    region: "eu1",\n    portalId: "139813798",\n    formId: "6188441d-dd8b-46f4-ab3d-eb6b2fe83a51"\n  });\n</script>\n\n<style>\n\n/* animation */\n@-webkit-keyframes btnWiggle {\n  0% {-webkit-transform: rotate(0deg);}\n  2% {-webkit-transform: rotate(-1deg);}\n  3.5% {-webkit-transform: rotate(1deg);}\n  5% {-webkit-transform: rotate(0deg);}\n  100% {-webkit-transform: rotate(0deg);}\n}\n@-o-keyframes btnWiggle {\n  0% {-webkit-transform: rotate(0deg);}\n  2% {-webkit-transform: rotate(-1deg);}\n  3.5% {-webkit-transform: rotate(1deg);}\n  5% {-webkit-transform: rotate(0deg);}\n  100% {-webkit-transform: rotate(0deg);}\n}\n@keyframes btnWiggle {\n  0% {-webkit-transform: rotate(0deg);}\n  2% {-webkit-transform: rotate(-1deg);}\n  3.5% {-webkit-transform: rotate(1deg);}\n  5% {-webkit-transform: rotate(0deg);}\n  100% {-webkit-transform: rotate(0deg);}\n}\n</style><noscript>',
             }}
           ></noscript>
         </Head>

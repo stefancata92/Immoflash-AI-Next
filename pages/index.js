@@ -276,6 +276,29 @@ const Home = (props) => {
             </span>
           </div>
         </footer>
+        <div className="home-container21 sticky">
+          <div className="sticky-div">
+            <span className="home-text32">
+              <span>
+                Just Launched, our eBook on how to write better real estate
+                ads. 
+              </span>
+              <span>
+                A bit of history, best practices and techniques to touch the
+                success
+              </span>
+              <br></br>
+            </span>
+            <a
+              href="https://share-eu1.hsforms.com/1YYhEHd2LRvSrPetrL-g6UQ2b8p0m"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link2 button wiggle"
+            >
+              Get Free eBook 
+            </a>
+          </div>
+        </div>
       </div>
       <style jsx>
         {`
@@ -287,7 +310,7 @@ const Home = (props) => {
             flex-direction: column;
           }
           .home-navbar {
-            height: 72px;
+            height: 65px;
             align-self: center;
           }
           .home-max-width {
@@ -901,11 +924,10 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            padding: var(--dl-space-space-fourunits);
             align-items: center;
+            padding-top: var(--dl-space-space-fourunits);
             border-radius: 48px;
             flex-direction: column;
-            padding-bottom: 64px;
             background-size: cover;
             background-image: url('/group%2011-1500w.png');
           }
@@ -948,7 +970,7 @@ const Home = (props) => {
             padding-left: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
             flex-direction: row;
-            padding-bottom: var(--dl-space-space-twounits);
+            padding-bottom: var(--dl-space-space-sixunits);
             justify-content: space-between;
           }
           .home-links-container {
@@ -962,6 +984,21 @@ const Home = (props) => {
           .home-text31 {
             color: var(--dl-color-scheme-lightblue);
             margin-bottom: 0px;
+          }
+          .home-container21 {
+            height: 67px;
+            margin-top: 100px;
+            justify-content: center;
+          }
+          .home-text32 {
+            margin-right: 20px;
+          }
+          .home-link2 {
+            color: var(--dl-color-scheme-orange100);
+            width: 275px;
+            font-style: normal;
+            font-weight: 600;
+            background-color: var(--dl-color-scheme-000080);
           }
           @media (max-width: 991px) {
             .home-content {
@@ -1035,6 +1072,9 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-twounits);
               flex-direction: row;
             }
+            .home-container21 {
+              padding: 10px 10px;
+            }
           }
           @media (max-width: 767px) {
             .home-max-width1 {
@@ -1085,11 +1125,15 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-image {
+              width: 91px;
+              height: 46px;
+            }
             .home-hero {
               height: 1111px;
             }
             .home-content {
-              height: 713px;
+              height: 610px;
               align-items: flex-start;
               padding-top: 0px;
               margin-bottom: 0px;
@@ -1141,6 +1185,18 @@ const Home = (props) => {
               align-items: flex-start;
               flex-direction: column;
               justify-content: space-between;
+            }
+            .home-container21 {
+              padding: 10px 10px;
+            }
+            .home-text32 {
+              font-size: 13px;
+            }
+            .home-link2 {
+              width: 374px;
+              padding: 10px 5px;
+              font-size: 16px;
+              text-align: center;
             }
           }
         `}
