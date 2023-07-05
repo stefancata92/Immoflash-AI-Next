@@ -6,12 +6,15 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>ImmoFlash AI</title>
+          <title>ImmoFlash AI - The Real estate ads expert</title>
           <meta
             name="description"
             content="Our state-of-the-art platform delivers high-quality real estate seo at lightning speed, powered by advanced artificial intelligence."
           />
-          <meta property="og:title" content="ImmoFlash AI" />
+          <meta
+            property="og:title"
+            content="ImmoFlash AI - The Real estate ads expert"
+          />
           <meta
             property="og:description"
             content="Our state-of-the-art platform delivers high-quality real estate seo at lightning speed, powered by advanced artificial intelligence."
@@ -1175,6 +1178,7 @@ const Home = (props) => {
             .home-hero-image {
               width: 434px;
               height: auto;
+              padding-top: 80px;
               padding-right: 0px;
             }
             .home-text04 {
